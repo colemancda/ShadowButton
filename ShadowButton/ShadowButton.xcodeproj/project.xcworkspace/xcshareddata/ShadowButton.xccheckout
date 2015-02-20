@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD5321B0-DA7C-4475-BC90-323AA36052E7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ShadowButton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3487427B8F9A1A32771DA3ACF57A0E7BB63ABF58</key>
+		<string>https://github.com/colemancda/UXKit.git</string>
+		<key>8BE866C1CCA28D02CD43D63B7EDF38705494952A</key>
+		<string>https://github.com/colemancda/ShadowButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ShadowButton/ShadowButton.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3487427B8F9A1A32771DA3ACF57A0E7BB63ABF58</key>
+		<string>../../..UXKit</string>
+		<key>8BE866C1CCA28D02CD43D63B7EDF38705494952A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/colemancda/ShadowButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8BE866C1CCA28D02CD43D63B7EDF38705494952A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8BE866C1CCA28D02CD43D63B7EDF38705494952A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ShadowButton</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3487427B8F9A1A32771DA3ACF57A0E7BB63ABF58</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ShadowButtonUXKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

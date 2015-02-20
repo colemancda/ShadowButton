@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E8B41FD1A96F00D00AB2046 /* UXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCE1381A96D80D00A42258 /* UXKit.framework */; };
+		6ECCE0F41A96D27400A42258 /* ShadowButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECCE0F31A96D27400A42258 /* ShadowButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECCE0FA1A96D27400A42258 /* ShadowButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCE0EE1A96D27400A42258 /* ShadowButton.framework */; };
+		6ECCE1011A96D27400A42258 /* ShadowButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE1001A96D27400A42258 /* ShadowButtonTests.swift */; };
+		6ECCE10B1A96D29A00A42258 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE10A1A96D29A00A42258 /* ShadowButton.swift */; };
+		6EE5C0D91A970182005C994F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5C0D81A970182005C994F /* AppDelegate.swift */; };
+		6EE5C0DB1A970182005C994F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5C0DA1A970182005C994F /* ViewController.swift */; };
+		6EE5C0DE1A970182005C994F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE5C0DC1A970182005C994F /* Main.storyboard */; };
+		6EE5C0E01A970182005C994F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE5C0DF1A970182005C994F /* Images.xcassets */; };
+		6EE5C0E31A970182005C994F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE5C0E11A970182005C994F /* LaunchScreen.xib */; };
+		6EE5C0EF1A970182005C994F /* ShadowButtonDemoiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5C0EE1A970182005C994F /* ShadowButtonDemoiOSTests.swift */; };
+		6EE5C0F61A97019F005C994F /* ShadowButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCE0EE1A96D27400A42258 /* ShadowButton.framework */; };
+		6EE5C0F71A97019F005C994F /* ShadowButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCE0EE1A96D27400A42258 /* ShadowButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EE5C0FB1A970236005C994F /* UXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCE1381A96D80D00A42258 /* UXKit.framework */; };
+		6EE5C0FC1A970236005C994F /* UXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECCE1381A96D80D00A42258 /* UXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8B41FB1A96F00800AB2046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECCE1321A96D80C00A42258 /* UXKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECCE1151A96D80B00A42258;
+			remoteInfo = UXKit;
+		};
+		6ECCE0FB1A96D27400A42258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECCE0E51A96D27400A42258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECCE0ED1A96D27400A42258;
+			remoteInfo = ShadowButton;
+		};
+		6ECCE1371A96D80D00A42258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECCE1321A96D80C00A42258 /* UXKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6ECCE1161A96D80B00A42258;
+			remoteInfo = UXKit;
+		};
+		6ECCE1391A96D80D00A42258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECCE1321A96D80C00A42258 /* UXKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6ECCE1211A96D80C00A42258;
+			remoteInfo = UXKitTests;
+		};
+		6EE5C0E91A970182005C994F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECCE0E51A96D27400A42258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EE5C0D31A970182005C994F;
+			remoteInfo = ShadowButtonDemoiOS;
+		};
+		6EE5C0F81A97019F005C994F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECCE0E51A96D27400A42258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECCE0ED1A96D27400A42258;
+			remoteInfo = ShadowButton;
+		};
+		6EE5C0FD1A970236005C994F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECCE1321A96D80C00A42258 /* UXKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECCE1151A96D80B00A42258;
+			remoteInfo = UXKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EE5C0FA1A97019F005C994F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6EE5C0FC1A970236005C994F /* UXKit.framework in Embed Frameworks */,
+				6EE5C0F71A97019F005C994F /* ShadowButton.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6ECCE0EE1A96D27400A42258 /* ShadowButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShadowButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECCE0F21A96D27400A42258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECCE0F31A96D27400A42258 /* ShadowButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowButton.h; sourceTree = "<group>"; };
+		6ECCE0F91A96D27400A42258 /* ShadowButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECCE0FF1A96D27400A42258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECCE1001A96D27400A42258 /* ShadowButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonTests.swift; sourceTree = "<group>"; };
+		6ECCE10A1A96D29A00A42258 /* ShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
+		6ECCE1321A96D80C00A42258 /* UXKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UXKit.xcodeproj; path = ../UXKit/UXKit/UXKit.xcodeproj; sourceTree = "<group>"; };
+		6EE5C0C71A96F1FD005C994F /* ShadowButtonDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ShadowButtonDemo.playground; path = ../ShadowButtonDemo.playground; sourceTree = "<group>"; };
+		6EE5C0D41A970182005C994F /* ShadowButtonDemoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowButtonDemoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE5C0D71A970182005C994F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE5C0D81A970182005C994F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EE5C0DA1A970182005C994F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EE5C0DD1A970182005C994F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EE5C0DF1A970182005C994F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6EE5C0E21A970182005C994F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6EE5C0E81A970182005C994F /* ShadowButtonDemoiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowButtonDemoiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE5C0ED1A970182005C994F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE5C0EE1A970182005C994F /* ShadowButtonDemoiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonDemoiOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ECCE0EA1A96D27400A42258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8B41FD1A96F00D00AB2046 /* UXKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECCE0F61A96D27400A42258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECCE0FA1A96D27400A42258 /* ShadowButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE5C0D11A970182005C994F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE5C0FB1A970236005C994F /* UXKit.framework in Frameworks */,
+				6EE5C0F61A97019F005C994F /* ShadowButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE5C0E51A970182005C994F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ECCE0E41A96D27400A42258 = {
+			isa = PBXGroup;
+			children = (
+				6EE5C0C71A96F1FD005C994F /* ShadowButtonDemo.playground */,
+				6ECCE1321A96D80C00A42258 /* UXKit.xcodeproj */,
+				6ECCE0F01A96D27400A42258 /* ShadowButton */,
+				6ECCE0FD1A96D27400A42258 /* ShadowButtonTests */,
+				6EE5C0D51A970182005C994F /* ShadowButtonDemoiOS */,
+				6EE5C0EB1A970182005C994F /* ShadowButtonDemoiOSTests */,
+				6ECCE0EF1A96D27400A42258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ECCE0EF1A96D27400A42258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCE0EE1A96D27400A42258 /* ShadowButton.framework */,
+				6ECCE0F91A96D27400A42258 /* ShadowButtonTests.xctest */,
+				6EE5C0D41A970182005C994F /* ShadowButtonDemoiOS.app */,
+				6EE5C0E81A970182005C994F /* ShadowButtonDemoiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ECCE0F01A96D27400A42258 /* ShadowButton */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCE0F31A96D27400A42258 /* ShadowButton.h */,
+				6ECCE10A1A96D29A00A42258 /* ShadowButton.swift */,
+				6ECCE0F11A96D27400A42258 /* Supporting Files */,
+			);
+			path = ShadowButton;
+			sourceTree = "<group>";
+		};
+		6ECCE0F11A96D27400A42258 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCE0F21A96D27400A42258 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ECCE0FD1A96D27400A42258 /* ShadowButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCE1001A96D27400A42258 /* ShadowButtonTests.swift */,
+				6ECCE0FE1A96D27400A42258 /* Supporting Files */,
+			);
+			path = ShadowButtonTests;
+			sourceTree = "<group>";
+		};
+		6ECCE0FE1A96D27400A42258 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCE0FF1A96D27400A42258 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ECCE1331A96D80C00A42258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCE1381A96D80D00A42258 /* UXKit.framework */,
+				6ECCE13A1A96D80D00A42258 /* UXKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE5C0D51A970182005C994F /* ShadowButtonDemoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EE5C0D81A970182005C994F /* AppDelegate.swift */,
+				6EE5C0DA1A970182005C994F /* ViewController.swift */,
+				6EE5C0DC1A970182005C994F /* Main.storyboard */,
+				6EE5C0DF1A970182005C994F /* Images.xcassets */,
+				6EE5C0E11A970182005C994F /* LaunchScreen.xib */,
+				6EE5C0D61A970182005C994F /* Supporting Files */,
+			);
+			path = ShadowButtonDemoiOS;
+			sourceTree = "<group>";
+		};
+		6EE5C0D61A970182005C994F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE5C0D71A970182005C994F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EE5C0EB1A970182005C994F /* ShadowButtonDemoiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EE5C0EE1A970182005C994F /* ShadowButtonDemoiOSTests.swift */,
+				6EE5C0EC1A970182005C994F /* Supporting Files */,
+			);
+			path = ShadowButtonDemoiOSTests;
+			sourceTree = "<group>";
+		};
+		6EE5C0EC1A970182005C994F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE5C0ED1A970182005C994F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6ECCE0EB1A96D27400A42258 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECCE0F41A96D27400A42258 /* ShadowButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6ECCE0ED1A96D27400A42258 /* ShadowButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECCE1041A96D27400A42258 /* Build configuration list for PBXNativeTarget "ShadowButton" */;
+			buildPhases = (
+				6ECCE0E91A96D27400A42258 /* Sources */,
+				6ECCE0EA1A96D27400A42258 /* Frameworks */,
+				6ECCE0EB1A96D27400A42258 /* Headers */,
+				6ECCE0EC1A96D27400A42258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8B41FC1A96F00800AB2046 /* PBXTargetDependency */,
+			);
+			name = ShadowButton;
+			productName = ShadowButton;
+			productReference = 6ECCE0EE1A96D27400A42258 /* ShadowButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6ECCE0F81A96D27400A42258 /* ShadowButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECCE1071A96D27400A42258 /* Build configuration list for PBXNativeTarget "ShadowButtonTests" */;
+			buildPhases = (
+				6ECCE0F51A96D27400A42258 /* Sources */,
+				6ECCE0F61A96D27400A42258 /* Frameworks */,
+				6ECCE0F71A96D27400A42258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ECCE0FC1A96D27400A42258 /* PBXTargetDependency */,
+			);
+			name = ShadowButtonTests;
+			productName = ShadowButtonTests;
+			productReference = 6ECCE0F91A96D27400A42258 /* ShadowButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EE5C0D31A970182005C994F /* ShadowButtonDemoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE5C0F01A970182005C994F /* Build configuration list for PBXNativeTarget "ShadowButtonDemoiOS" */;
+			buildPhases = (
+				6EE5C0D01A970182005C994F /* Sources */,
+				6EE5C0D11A970182005C994F /* Frameworks */,
+				6EE5C0D21A970182005C994F /* Resources */,
+				6EE5C0FA1A97019F005C994F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EE5C0F91A97019F005C994F /* PBXTargetDependency */,
+				6EE5C0FE1A970236005C994F /* PBXTargetDependency */,
+			);
+			name = ShadowButtonDemoiOS;
+			productName = ShadowButtonDemoiOS;
+			productReference = 6EE5C0D41A970182005C994F /* ShadowButtonDemoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EE5C0E71A970182005C994F /* ShadowButtonDemoiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE5C0F31A970182005C994F /* Build configuration list for PBXNativeTarget "ShadowButtonDemoiOSTests" */;
+			buildPhases = (
+				6EE5C0E41A970182005C994F /* Sources */,
+				6EE5C0E51A970182005C994F /* Frameworks */,
+				6EE5C0E61A970182005C994F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EE5C0EA1A970182005C994F /* PBXTargetDependency */,
+			);
+			name = ShadowButtonDemoiOSTests;
+			productName = ShadowButtonDemoiOSTests;
+			productReference = 6EE5C0E81A970182005C994F /* ShadowButtonDemoiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ECCE0E51A96D27400A42258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ColemanCDA;
+				TargetAttributes = {
+					6ECCE0ED1A96D27400A42258 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6ECCE0F81A96D27400A42258 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6EE5C0D31A970182005C994F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6EE5C0E71A970182005C994F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6EE5C0D31A970182005C994F;
+					};
+				};
+			};
+			buildConfigurationList = 6ECCE0E81A96D27400A42258 /* Build configuration list for PBXProject "ShadowButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ECCE0E41A96D27400A42258;
+			productRefGroup = 6ECCE0EF1A96D27400A42258 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6ECCE1331A96D80C00A42258 /* Products */;
+					ProjectRef = 6ECCE1321A96D80C00A42258 /* UXKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6ECCE0ED1A96D27400A42258 /* ShadowButton */,
+				6ECCE0F81A96D27400A42258 /* ShadowButtonTests */,
+				6EE5C0D31A970182005C994F /* ShadowButtonDemoiOS */,
+				6EE5C0E71A970182005C994F /* ShadowButtonDemoiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6ECCE1381A96D80D00A42258 /* UXKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UXKit.framework;
+			remoteRef = 6ECCE1371A96D80D00A42258 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6ECCE13A1A96D80D00A42258 /* UXKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UXKitTests.xctest;
+			remoteRef = 6ECCE1391A96D80D00A42258 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ECCE0EC1A96D27400A42258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECCE0F71A96D27400A42258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE5C0D21A970182005C994F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE5C0DE1A970182005C994F /* Main.storyboard in Resources */,
+				6EE5C0E31A970182005C994F /* LaunchScreen.xib in Resources */,
+				6EE5C0E01A970182005C994F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE5C0E61A970182005C994F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ECCE0E91A96D27400A42258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECCE10B1A96D29A00A42258 /* ShadowButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECCE0F51A96D27400A42258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECCE1011A96D27400A42258 /* ShadowButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE5C0D01A970182005C994F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE5C0DB1A970182005C994F /* ViewController.swift in Sources */,
+				6EE5C0D91A970182005C994F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE5C0E41A970182005C994F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE5C0EF1A970182005C994F /* ShadowButtonDemoiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E8B41FC1A96F00800AB2046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UXKit;
+			targetProxy = 6E8B41FB1A96F00800AB2046 /* PBXContainerItemProxy */;
+		};
+		6ECCE0FC1A96D27400A42258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ECCE0ED1A96D27400A42258 /* ShadowButton */;
+			targetProxy = 6ECCE0FB1A96D27400A42258 /* PBXContainerItemProxy */;
+		};
+		6EE5C0EA1A970182005C994F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EE5C0D31A970182005C994F /* ShadowButtonDemoiOS */;
+			targetProxy = 6EE5C0E91A970182005C994F /* PBXContainerItemProxy */;
+		};
+		6EE5C0F91A97019F005C994F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ECCE0ED1A96D27400A42258 /* ShadowButton */;
+			targetProxy = 6EE5C0F81A97019F005C994F /* PBXContainerItemProxy */;
+		};
+		6EE5C0FE1A970236005C994F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UXKit;
+			targetProxy = 6EE5C0FD1A970236005C994F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EE5C0DC1A970182005C994F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE5C0DD1A970182005C994F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EE5C0E11A970182005C994F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE5C0E21A970182005C994F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ECCE1021A96D27400A42258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6ECCE1031A96D27400A42258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6ECCE1051A96D27400A42258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ShadowButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ECCE1061A96D27400A42258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ShadowButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6ECCE1081A96D27400A42258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(SDKROOT)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShadowButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6ECCE1091A96D27400A42258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(SDKROOT)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShadowButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EE5C0F11A970182005C994F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShadowButtonDemoiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EE5C0F21A970182005C994F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ShadowButtonDemoiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE5C0F41A970182005C994F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShadowButtonDemoiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowButtonDemoiOS.app/ShadowButtonDemoiOS";
+			};
+			name = Debug;
+		};
+		6EE5C0F51A970182005C994F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShadowButtonDemoiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowButtonDemoiOS.app/ShadowButtonDemoiOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ECCE0E81A96D27400A42258 /* Build configuration list for PBXProject "ShadowButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECCE1021A96D27400A42258 /* Debug */,
+				6ECCE1031A96D27400A42258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECCE1041A96D27400A42258 /* Build configuration list for PBXNativeTarget "ShadowButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECCE1051A96D27400A42258 /* Debug */,
+				6ECCE1061A96D27400A42258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECCE1071A96D27400A42258 /* Build configuration list for PBXNativeTarget "ShadowButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECCE1081A96D27400A42258 /* Debug */,
+				6ECCE1091A96D27400A42258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE5C0F01A970182005C994F /* Build configuration list for PBXNativeTarget "ShadowButtonDemoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE5C0F11A970182005C994F /* Debug */,
+				6EE5C0F21A970182005C994F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE5C0F31A970182005C994F /* Build configuration list for PBXNativeTarget "ShadowButtonDemoiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE5C0F41A970182005C994F /* Debug */,
+				6EE5C0F51A970182005C994F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ECCE0E51A96D27400A42258 /* Project object */;
+}
