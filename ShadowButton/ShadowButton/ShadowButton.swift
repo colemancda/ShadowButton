@@ -19,7 +19,7 @@ import CoreGraphics
         
         didSet {
             
-            self.setNeedsDisplay()
+            self.setImage()
         }
     }
     
@@ -27,34 +27,36 @@ import CoreGraphics
         
         didSet {
             
-            self.setNeedsDisplay()
+            self.setImage()
         }
     }
-    
     
     @IBInspectable public var buttonColor: UXColor = UXColor(red: 0.282, green: 0.282, blue: 0.282, alpha: 1.000) {
         
         didSet {
             
-            self.setNeedsDisplay()
+            self.setImage()
         }
     }
     
-    // MARK: - Methods
-    
-    public override func drawRect(rect: CGRect) {
+    @IBInspectable public var shadowSize: CGFloat = 3 {
         
-        self.drawShadowButton(frame: self.bounds, cornerRadius: self.cornerRadius)
+        didSet {
+            
+            self.setImage()
+        }
     }
     
-    private func drawShadowButton(#frame: CGRect, cornerRadius: CGFloat) {
+    // MARK: - Class Methods
+    
+    public class func drawShadowButton(#frame: CGRect, cornerRadius: CGFloat, buttonColor: UXColor, shadowColor: UXColor, shadowSize: CGFloat) {
         
         //// General Declarations
         let context = UXGraphicsGetCurrentContext()
         
         //// Shadow Declarations
         let shadowButtonShadow = shadowColor
-        let shadowButtonShadowOffset = CGSizeMake(0.1, 3.1)
+        let shadowButtonShadowOffset = CGSizeMake(0.1, shadowSize + 0.1)
         let shadowButtonShadowBlurRadius: CGFloat = 0
         
         //// Rectangle Drawing
@@ -65,5 +67,58 @@ import CoreGraphics
         rectanglePath.fill()
         CGContextRestoreGState(context)
     }
-
+    
+    public class func imageOfShadowButton(#frame: CGRect, cornerRadius: CGFloat, buttonColor: UXColor, shadowColor: UXColor, shadowSize: CGFloat) -> UXImage {
+        
+        #if os(iOS)
+        
+        UIGraphicsBeginImageContextWithOptions(frame.size, false, 0)
+        
+        self.drawShadowButton(frame: frame, cornerRadius: cornerRadius, buttonColor: buttonColor, shadowColor: shadowColor, shadowSize: shadowSize)
+        
+        let imageOfShadowButton = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        
+        return imageOfShadowButton
+            
+        #elseif os(OSX)
+        
+        return NSImage(size: frame.size, flipped: false, drawingHandler: { (NSRect) -> Bool in
+            
+            self.drawShadowButton(frame: frame, cornerRadius: cornerRadius, buttonColor: buttonColor, shadowColor: shadowColor, shadowSize: shadowSize)
+            
+            return true
+        })
+            
+        #endif
+    }
+    
+    // MARK: - Initialization
+    
+    public required init(coder aDecoder: NSCoder) {
+        
+        super.init(coder: aDecoder)
+        
+        self.setImage()
+    }
+    
+    public override init(frame: CGRect) {
+        
+        super.init(frame: frame)
+        
+        self.setImage()
+    }
+    
+    // MARK: - Private Methods
+    
+    private func setImage() {
+        
+        let image = self.dynamicType.imageOfShadowButton(frame: self.bounds, cornerRadius: self.cornerRadius, buttonColor: self.buttonColor, shadowColor: self.shadowColor, shadowSize: self.shadowSize)
+        
+        #if os(iOS)
+            self.setBackgroundImage(image, forState: UIControlState.Normal)
+        #elseif os(OSX)
+            self.image = image
+        #endif
+    }
 }
